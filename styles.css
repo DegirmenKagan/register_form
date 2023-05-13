@@ -21,6 +21,7 @@ form {
   max-width: 500px;
   min-width: 300px;
   width: 60vw;
+  padding-bottom: 2em;
 }
 
 fieldset {
@@ -47,10 +48,20 @@ select {
   width: 100%;
   margin: 0;
   margin-top: 10px;
+  min-height: 2em;
+}
+
 .inline {
   width: unset;
   margin: 0;
   margin-right: 0.5em;
   vertical-align: middle;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
 }
 }
