@@ -47,4 +47,10 @@ select {
   width: 100%;
   margin: 0;
   margin-top: 10px;
+.inline {
+  width: unset;
+  margin: 0;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
 }
