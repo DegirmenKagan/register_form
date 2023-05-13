@@ -64,4 +64,24 @@ textarea {
   border: 1px solid #0a0a23;
   color: #ffffff;
 }
+
+/* attribute selector */
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  /* to center */
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+a {
+  color: #dfdfe2;
 }
